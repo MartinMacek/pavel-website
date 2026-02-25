@@ -2,7 +2,7 @@ import { Phone, Mail, MapPin } from "lucide-react";
 
 const ContactSection = () => {
     return (
-        <section id="contact" className="py-24 px-6 bg-background">
+        <section id="contact" className="py-24 px-6 bg-mist-50">
             <div className="max-w-4xl mx-auto text-center">
                 <p className="text-yellow-600 font-semibold tracking-widest uppercase text-sm mb-3">Napište nám</p>
                 <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">

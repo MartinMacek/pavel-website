@@ -25,7 +25,7 @@ const services = [
 
 const ServicesSection = () => {
     return (
-        <section id="services" className="py-24 px-6 bg-background">
+        <section id="services" className="py-24 px-6 bg-mist-50">
             <div className="max-w-6xl mx-auto">
                 <div className="text-center mb-16">
                     <p className="text-yellow-600 font-semibold tracking-widest uppercase text-sm mb-3">Co nabízíme</p>
@@ -35,7 +35,7 @@ const ServicesSection = () => {
                     {services.map((service) => (
                         <div
                             key={service.title}
-                            className="bg-mist-50 rounded-xl p-8 text-center hover:shadow-lg transition-shadow border border-mist-200 group"
+                            className="bg-mist-100/80 rounded-xl p-8 text-center hover:shadow-lg transition-shadow border border-mist-200 group"
                         >
                             <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-mist-100 flex items-center justify-center group-hover:bg-mist-200 transition-colors">
                                 <service.icon className="w-7 h-7 text-green-800" />
