@@ -17,26 +17,26 @@ const ContactSection = () => {
                             <Phone className="w-6 h-6 text-green-800" />
                         </div>
                         <h4 className="font-bold text-foreground">Zavolejte nám</h4>
-                        <p className="text-green-900">(555) 123-4567</p>
+                        <p className="text-green-900">+420 730 678 294</p>
                     </div>
                     <div className="flex flex-col items-center gap-3 p-6">
                         <div className="w-14 h-14 rounded-full bg-mist-100 flex items-center justify-center">
                             <Mail className="w-6 h-6 text-green-800" />
                         </div>
                         <h4 className="font-bold text-foreground">Napište e-mail</h4>
-                        <p className="text-green-900">info@greenclean.com</p>
+                        <p className="text-green-900">info@spruzinapavel.cz</p>
                     </div>
                     <div className="flex flex-col items-center gap-3 p-6">
                         <div className="w-14 h-14 rounded-full bg-mist-100 flex items-center justify-center">
                             <MapPin className="w-6 h-6 text-green-800" />
                         </div>
                         <h4 className="font-bold text-foreground">Oblast působnosti</h4>
-                        <p className="text-green-900">Vaše město a okolí</p>
+                        <p className="text-green-900">Hodonín, Kyjov, Uherské Hradiště a okolí</p>
                     </div>
                 </div>
                 <a
                     href=""
-                    className="inline-block bg-green-800 text-white font-semibold px-10 py-4 rounded-lg hover:opacity-90 transition-opacity text-lg"
+                    className="inline-block brandGreen text-white font-semibold px-10 py-4 rounded-lg hover:opacity-90 transition-opacity text-lg"
                 >
                     Zavolejte pro nabídku zdarma
                 </a>

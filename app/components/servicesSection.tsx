@@ -9,7 +9,7 @@ const services = [
     {
         icon: TreePine,
         title: "Údržba sadů",
-        description: "Kompletní péče o ovocné sady — řez, odstraňování náletů a udržování stromů zdravých a plodných.",
+        description: "Podpůrná údržba ovocných sadů — odstraňování náletů, kácení stromů a úklid okolí.",
     },
     {
         icon: Leaf,
@@ -37,7 +37,7 @@ const ServicesSection = () => {
                             key={service.title}
                             className="bg-mist-100/80 rounded-xl p-8 text-center hover:shadow-lg transition-shadow border border-mist-200 group"
                         >
-                            <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-mist-100 flex items-center justify-center group-hover:bg-mist-200 transition-colors">
+                            <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-mist-200 flex items-center justify-center group-hover:bg-mist-300 transition-colors">
                                 <service.icon className="w-7 h-7 text-green-800" />
                             </div>
                             <h3 className="text-xl font-bold text-foreground mb-3">{service.title}</h3>

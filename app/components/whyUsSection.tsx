@@ -14,7 +14,7 @@ const WhyUsSection = () => {
         <section className="py-24 px-6 bg-olive-200">
             <div className="max-w-5xl mx-auto flex flex-col lg:flex-row gap-16 items-center">
                 <div className="flex-1">
-                    <p className="text-green-900 font-semibold tracking-widest uppercase text-sm mb-3">Proč si vybrat nás</p>
+                    <p className="text-yellow-600 font-semibold tracking-widest uppercase text-sm mb-3">Proč si vybrat nás</p>
                     <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-8">
                         Důvěřují nám majitelé domů i pozemků
                     </h2>
@@ -28,7 +28,7 @@ const WhyUsSection = () => {
                     </ul>
                 </div>
                 <div className="flex-1 flex justify-center">
-                    <div className="bg-green-800 rounded-2xl p-10 text-center max-w-sm text-white">
+                    <div className="brandGreen rounded-2xl p-10 text-center max-w-sm text-white">
                         <p className="text-mist-100/80 text-sm uppercase tracking-widest mb-2">Začněte</p>
                         <h3 className="text-3xl font-bold text-primary-foreground mb-4">Nabídka zdarma</h3>
                         <p className="text-mist-100/80 mb-8">

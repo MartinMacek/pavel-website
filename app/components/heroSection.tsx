@@ -13,7 +13,7 @@ const HeroSection = () => {
                     Profesionální péče o zahrady a pozemky
                 </p>
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground leading-tight mb-6">
-                    Spolehlivý partner pro vaši <span className="italic">zeleň</span>
+                    Spolehlivý partner pro vaši <span className="italic">Zeleň</span>
                 </h1>
                 <p className="text-lg md:text-xl text-primary-foreground/85 font-light mb-10 max-w-xl mx-auto">
                     Odborné čištění pozemků, sečení trávy a údržba zahrad pro domy i sady.
@@ -21,7 +21,7 @@ const HeroSection = () => {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <a
                         href="#contact"
-                        className="inline-block bg-green-800 text-primary-foreground font-semibold px-8 py-4 rounded-lg hover:opacity-90 transition-opacity text-lg"
+                        className="inline-block brandGreen text-primary-foreground font-semibold px-8 py-4 rounded-lg hover:opacity-90 transition-opacity text-lg"
                     >
                         Získejte nabídku zdarma
                     </a>
