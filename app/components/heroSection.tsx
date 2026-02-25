@@ -10,26 +10,26 @@ const HeroSection = () => {
             <div className="absolute inset-0 " />
             <div className="relative z-10 text-center px-6 max-w-3xl mx-auto animate-fade-up text-white">
                 <p className="text-primary-foreground/80 font-body tracking-widest uppercase text-sm mb-4">
-                    Professional Garden & Land Care
+                    Profesionální péče o zahrady a pozemky
                 </p>
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground leading-tight mb-6">
-                    We Make Your Outdoors <span className="italic">Shine</span>
+                    Spolehlivý partner pro vaši <span className="italic">zeleň</span>
                 </h1>
                 <p className="text-lg md:text-xl text-primary-foreground/85 font-light mb-10 max-w-xl mx-auto">
-                    Expert land cleaning, grass cutting, and garden maintenance for homes and orchards.
+                    Odborné čištění pozemků, sečení trávy a údržba zahrad pro domy i sady.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <a
                         href="#contact"
                         className="inline-block bg-green-800 text-primary-foreground font-semibold px-8 py-4 rounded-lg hover:opacity-90 transition-opacity text-lg"
                     >
-                        Get a Free Quote
+                        Získejte nabídku zdarma
                     </a>
                     <a
                         href="#services"
                         className="inline-block border-2 border-white/40 text-white font-semibold px-8 py-4 rounded-lg hover:bg-white/10 transition-colors text-lg"
                     >
-                        Our Services
+                        Naše služby
                     </a>
                 </div>
             </div>

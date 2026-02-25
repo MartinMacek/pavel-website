@@ -3,23 +3,23 @@ import { Scissors, TreePine, Leaf, Sparkles } from "lucide-react";
 const services = [
     {
         icon: Scissors,
-        title: "Grass Cutting",
-        description: "Regular and one-time lawn mowing to keep your garden neat, healthy, and picture-perfect all season long.",
+        title: "Sekání trávy",
+        description: "Pravidelné i jednorázové sečení trávníků — vaše zahrada zůstane upravená, zdravá a jako z obrázku po celou sezónu.",
     },
     {
         icon: TreePine,
-        title: "Orchard Maintenance",
-        description: "Complete care for fruit orchards — trimming, clearing undergrowth, and keeping trees healthy and productive.",
+        title: "Údržba sadů",
+        description: "Kompletní péče o ovocné sady — řez, odstraňování náletů a udržování stromů zdravých a plodných.",
     },
     {
         icon: Leaf,
-        title: "Land Cleaning",
-        description: "Overgrown plots, neglected yards, or wild areas — we clear, clean, and restore any piece of land.",
+        title: "Čištění pozemků",
+        description: "Zarostlé parcely, zanedbané dvory nebo divoké plochy — vyčistíme, uklidíme a zregenerujeme jakýkoli pozemek.",
     },
     {
         icon: Sparkles,
-        title: "Garden Tidy-Up",
-        description: "Hedge trimming, debris removal, weeding, and general cleanup to transform your outdoor spaces.",
+        title: "Úklid zahrady",
+        description: "Stříhání živých plotů, odvoz odpadu, pletí a obecný úklid pro proměnu vašich venkovních prostor.",
     },
 ];
 
@@ -28,8 +28,8 @@ const ServicesSection = () => {
         <section id="services" className="py-24 px-6 bg-background">
             <div className="max-w-6xl mx-auto">
                 <div className="text-center mb-16">
-                    <p className="text-yellow-600 font-semibold tracking-widest uppercase text-sm mb-3">What We Do</p>
-                    <h2 className="text-3xl md:text-5xl font-bold text-foreground">Our Services</h2>
+                    <p className="text-yellow-600 font-semibold tracking-widest uppercase text-sm mb-3">Co nabízíme</p>
+                    <h2 className="text-3xl md:text-5xl font-bold text-foreground">Naše služby</h2>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                     {services.map((service) => (
