@@ -4,8 +4,8 @@ const reasons = [
     "Spolehlivý, včasný servis při každé návštěvě",
     "Dostupné ceny bez skrytých poplatků",
     "Zkušený tým s profesionálním vybavením",
-    "Po nás zůstane váš pozemek jako nový",
-    "Flexibilní termíny — týdně, čtrnáctidenně nebo jednorázově",
+    "Po nás zůstane váš pozemek jako z obrázku",
+    "Flexibilní termíny — týdně, sezónně nebo jednorázově",
     "Služby pro zahrady, sady i velké plochy",
 ];
 
@@ -29,7 +29,7 @@ const WhyUsSection = () => {
                 </div>
                 <div className="flex-1 flex justify-center">
                     <div className="brandGreen rounded-2xl p-10 text-center max-w-sm text-white">
-                        <p className="text-mist-100/80 text-sm uppercase tracking-widest mb-2">Začněte</p>
+                        <p className="text-mist-100/80 text-sm uppercase tracking-widest mb-2">nezávazná</p>
                         <h3 className="text-3xl font-bold text-primary-foreground mb-4">Nabídka zdarma</h3>
                         <p className="text-mist-100/80 mb-8">
                             Popište nám váš pozemek a do 24 hodin vám zašleme nezávaznou nabídku.
